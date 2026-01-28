@@ -304,12 +304,11 @@ PRICING ↓
 }   
 .plan__middle--text {
     font-size: 16px;
-    color: #718096;
     align-items: center;
     text-align: center;
     gap: 16px;      
 }               
-   
+
 .plan__bottom {
     display: flex;
     flex-direction: column;
@@ -327,7 +326,6 @@ PRICING ↓
     border: none;
 }       
 .plan__bottom--button:hover {
-   
     cursor: pointer;
 }   
 .plan__bottom--text:hover {
