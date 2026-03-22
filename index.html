@@ -69,24 +69,7 @@
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div class="menu__links">
-          <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
-          <a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a>
-          <a href="#pricing" class="menu__link" onclick="closeMenu()"
-            >Pricing</a
-          >
-          <a href="#contact__us" class="menu__link" onclick="closeMenu()"
-            >Contact Us</a
-          >
-          <a href="#login" class="menu__link" onclick="closeMenu()">Login</a>
-          <a
-            href="#signup"
-            class="menu__link menu__link--primary"
-            onclick="closeMenu()"
-            >Sign up</a
-          >
         </div>
-      </div>
       <header>
         <div class="container">
           <div class="row">
@@ -99,22 +82,22 @@
                 modular components with a variety of pages and components.
               </p>
               <div class="header__email">
-                <input
+                <input email
                   type="text"
                   class="header__email--input"
                   placeholder="Your E-mail Address"
                   aria-label="Email Address">
                 <button class="header__email--btn" type="button" aria-label="Menu">Get Started</button>
-              </div>
+            </div>
               <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
               <img
                 src="assets/assets - Google Drive_files/assetsproj2/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
-                class="header__customers" alt="customers">
+                class="header__customers" alt="customers" >
             </div>
             <figure class="header__img--wrapper">
               <img
                 src="assets/assets - Google Drive_files/assetsproj2/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-                class="header__img" alt="header">
+                class="header__img" alt="header" >
             </figure>
           </div>
         </div>
@@ -128,6 +111,7 @@
             <h2 class="section__title">
               We Have Amazing <span class="purple">Service.</span>
             </h2>
+            <div><br><br></div>
             <div class="section__para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -411,10 +395,10 @@
             <div><br><br></div><br>
           </div>
             <div class="plans">
-              <div class="plan">
+              <div class="card plan">
+                <!--Personal plan-->
                 <div class="card plan__top">
                   <div class="card body">
-                  <!--Personal plan-->
                   <div class="plan__name">PERSONAL</div>
                   <div><br></div>
                   <div class="plan__price">$17.99</div>
@@ -437,7 +421,7 @@
               </div>
               <!--Business plan-->
               <div class="plans">
-                <div class="plan"></div>
+                <div class="card plan"></div>
                 <div class="card plan__middle">
                   <div class="card body">
                   <div class="plan__name">BUSINESS</div>
@@ -458,8 +442,9 @@
                 <div><br><br></div></div>
               <div><br><br></div></div>
               <div><br><br></div>
+              <div><br><br></div>
               <!-- Enterprise -->
-              <div class="plan">
+              <div class="card plan">
                 <div class="plan__top">
                   <div class="plan__name">ENTERPRISE</div>
                   <div class="plan__price">$57.99</div>
