@@ -7,6 +7,9 @@
     font-family: 'Inter', system-ui;
     color: #243e63;
 }
+img {
+    width: 100%;
+}
 .nav__logo {
      border-radius: 1px;
     width: 6px;
