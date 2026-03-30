@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -21,7 +21,7 @@
     height: auto;
 }
 
-/* Title*/
+/* Title
 .title {
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
     padding: 0 16px 0 16px;
 }
 /* Navigation */
-.nav-links {
+/*.nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,18 +128,9 @@ nav li:first-child {
 }
 
 /* Body*/
-.body {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
 /* H1 */
+/*
 h1 {
     display: flex;
     flex-direction: column;
@@ -151,6 +142,7 @@ h1 {
     font-weight: 800;
 }
 /* Header */
+/*
 .img_header {
     display: flex;
     flex-direction: column;
@@ -227,6 +219,7 @@ header.row {
     text-align: center;
 
 /* Section */
+/*
 section {
     display:flex;
     flex-direction: column;
@@ -243,6 +236,7 @@ section {
 
 /* Main */
 
+/*
 main {
     display: flex;
     flex-direction: column;
@@ -254,6 +248,7 @@ main {
 }
 
 /* Modal */
+/*
 .modal {
     width: 50%;
     height: 100%;
@@ -332,6 +327,7 @@ main {
 
 /* Feature */
 
+/*
 .feature_img {
     width: 50%;
     height: auto;
@@ -366,6 +362,7 @@ main {
 
 /* Quality */
 
+/*
 .quality {
     width: 50%;
     height: 100%;
@@ -411,6 +408,7 @@ main {
 /* STEPS */
 
 
+/*
 #steps .row {
     display: flex;
     flex-direction: column;
@@ -422,6 +420,7 @@ main {
 }
 /* VALUES */
 
+/*
 #values .row {
     display: flex;
     justify-content: space-between;
@@ -433,6 +432,7 @@ main {
 /* TESTIMONIALS */
 
 
+/*
 #testimonials .row {
     display: flex;
     justify-content: space-between; 
@@ -454,6 +454,7 @@ main {
 
 
 
+/*
 #start .row {
     position: relative;
     overflow: hidden;
@@ -466,6 +467,7 @@ FOOTER ↓
 */
 
 
+/*
 .footer {
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
@@ -556,7 +558,7 @@ footer__social {
     opacity: 0.3;
 }
 /* MOBILE RESPONSIVENESS */
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
     #quality .row,
     #values .row {
         display: flex;
@@ -686,3 +688,4 @@ footer__social {
 }
 }
 }
+*/
