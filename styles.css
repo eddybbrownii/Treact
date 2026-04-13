@@ -743,9 +743,9 @@ PRICING
 }
 
 #pricing .section__para {
-  max-width: 576px;
-  text-align: center;
-  margin: 0 auto;
+    max-width: 576px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -1674,5 +1674,3 @@ main {
     line-height: 1.5;
 }
 }
-}
-*/
